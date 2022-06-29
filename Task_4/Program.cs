@@ -24,7 +24,7 @@ return res;
 int[] numbers = new int[10];
 int palendrom = 0;
 
-int number = Promt("Enter 5 digits number: ");
+int number = Promt("Enter a number: ");
 
 if (number < 10)
     System.Console.WriteLine("Fatal Error! Incorrect number! Please try again.");
